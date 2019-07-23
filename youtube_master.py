@@ -59,3 +59,11 @@ class YoutubeMaster:
 
     def filter_completed(self, ids):
         return ids.difference(self.ids_completed)
+
+
+if __name__=="__main__":
+    yt = Youtube(id="e3Odkr4yhD0")
+    yt.download(root="/mnt/IYONas3/ASR/ja/audio_text/YOUTUBE/all")
+    yt.post_process(fq=16000,
+                    split_audio=True,
+                    split_captions=True)
