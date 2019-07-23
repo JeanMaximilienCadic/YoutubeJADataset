@@ -32,6 +32,6 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 
 ```
 # Install python requirements
-pip install iyo-core, gnutools-python, tqdm, numpy
+pip install iyo-utils, gnutools-python, tqdm, numpy
 ```
 
