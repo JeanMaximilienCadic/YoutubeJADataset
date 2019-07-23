@@ -25,6 +25,9 @@ At a granular level, Iyo is a library that consists of the following components:
 ```
 # System dependencies
 sudo apt-get install g++-5 gcc-5 git sox libsox-dev libsox-fmt-all meshlab python3 python3-pip cmake ffmpeg youtube_dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
 ```
 
 ```
